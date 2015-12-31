@@ -2,11 +2,11 @@
 
 I got kind of tired by the over-developed boilerplates that are out there. 
 
-This project reflects what I usually start with. A very basic setup without much configuration.
+This project contains what I usually start with. Which is very little:
 
-- No Gulpfile
-- No Webpack or whatever.
-- Uses Mocha for testing and babel/browserify for compilation and a basic static server for server-less development.
+- No __Gulpfile_-
+- No __Webpack or whatever__.
+- Uses [Mocha](http://mochajs.org/) with [Enzyme](https://github.com/airbnb/enzyme/) for testing and [babel](babeljs.io)/[browserify](http://browserify.org/) for compilation and a basic __static file server__ module ([http-server](https://www.npmjs.com/package/http-server)) for when you want to start developing without yet needing to worry about a backend.
 
 ## Getting Started 
 To install this, clone the github repo first into your project folder: `git clone git@github.com:juliankrispel/super-basic-redux-boilerplate.git <my-project-folder>`.
