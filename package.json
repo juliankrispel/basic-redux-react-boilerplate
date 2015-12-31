@@ -1,11 +1,11 @@
 {
-  "name": "tasks",
-  "version": "1.0.0",
+  "name": "basic-redux-boilerplate",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/app/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register --recursive src/**/__tests__/*.js",
-    "watch": "NODE_PATH=src watchify --extensions ['.js', '.jsx'] --debug -t babelify src/app -o public/app.js",
+    "dev": "http-server ./ && NODE_PATH=src watchify --extensions ['.js', '.jsx'] --debug -t babelify src/app -o public/app.js",
     "build": "NODE_PATH=src browserify -t babelify uglifyify src/app public/app.js",
     "test:watch": "NODE_PATH=src mocha --compilers js:babel-register --recursive src/**/__tests__/*.js --watch"
   },
@@ -31,6 +31,7 @@
     "browserify": "12.0.1",
     "chai": "3.4.1",
     "enzyme": "1.2.0",
+    "http-server": "0.8.5",
     "mocha": "2.3.4",
     "react-addons-test-utils": "0.14.3",
     "sinon": "1.17.2",
