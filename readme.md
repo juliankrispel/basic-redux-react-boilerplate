@@ -18,8 +18,11 @@ Then, cd into your project folder and run `npm install`, this will install all t
 These are the four commands for compiling and watching your code and running your unit tests. I also added `http-server`, it will simply serve the contents in this directory.
 
 `npm run test` - runs all unit tests (via mocha).
+
 `npm run test:watch` - runs all unit tests and reruns them when a file has changed.
+
 `npm run build` - build the javascript source.
+
 `npm run dev` - watches the codebase and recompiles when changes are made. This is the command you'll use most often.
 
 I originally wrote this for my friend [JP](https://twitter.com/jipiboily), who's just getting started with React. So I also added some example code to show you how to get started with Redux and React, as well as a basic example of how to test a [react component with mocha](https://github.com/juliankrispel/super-basic-redux-boilerplate/blob/master/src/app/example/__tests__/component.js).
