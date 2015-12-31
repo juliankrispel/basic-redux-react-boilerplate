@@ -29,4 +29,4 @@ I originally wrote this for my friend [JP](https://twitter.com/jipiboily), who's
 
 This project has the `src` directory added to its `NODE_PATH`. This means is that you can import app-specific modules as if they were inside the `node_modules` folder, which is a lot nicer than having to use relative paths everywhere, [have a look at the example code](https://github.com/juliankrispel/super-basic-redux-boilerplate/blob/master/src/app/index.js#L4) to see what I mean.
 
-Any probs? Let me know please :) Works for me though :P
+Any probs? [Let me know please](https://github.com/juliankrispel/super-basic-redux-boilerplate/issues) :) Works for me though :P
