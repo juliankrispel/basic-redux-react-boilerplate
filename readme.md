@@ -4,8 +4,7 @@ I got kind of tired by the over-developed boilerplates that are out there.
 
 This project contains what I usually start with. Which is very little:
 
-- No __Gulpfile_-
-- No __Webpack or whatever__.
+- No __Gulp, Grunt, Webpack or Brocoli build files__.
 - Uses [Mocha](http://mochajs.org/) with [Enzyme](https://github.com/airbnb/enzyme/) for testing and [babel](babeljs.io)/[browserify](http://browserify.org/) for compilation and a basic __static file server__ module ([http-server](https://www.npmjs.com/package/http-server)) for when you want to start developing without yet needing to worry about a backend.
 
 ## Getting Started 
